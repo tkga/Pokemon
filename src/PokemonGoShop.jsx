@@ -943,7 +943,7 @@ function MoreSheet({ onClose, go }) {
             <div style={{ background: "var(--surface2)", borderRadius: 12, padding: 10 }}><it.icon size={18} color="var(--yellow)" /></div>
             <div style={{ flex: 1 }}>
               <div style={{ fontWeight: 700, fontSize: 14 }}>{it.label}</div>
-              <div style={{ fontSize: 11, color: "var(--muted)" }}>{it.desc}</div>
+              <div style={{ fontSize: 11, color: "#9ca3af" }}>{it.desc}</div>
             </div>
             <ChevronRight size={16} color="var(--muted)" />
           </button>
